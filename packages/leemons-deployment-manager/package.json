@@ -1,0 +1,35 @@
+{
+  "name": "@leemons/deployment-manager",
+  "version": "0.0.71",
+  "description": "Leemons Deployment Manager SDK",
+  "license": "MIT",
+  "main": "src/index.js",
+  "types": "src/types.d.ts",
+  "keywords": [
+    "leemons",
+    "sdk"
+  ],
+  "author": {
+    "email": "hi@leemons.io",
+    "name": "Leemons Edtech Solutions",
+    "url": "https://www.leemons.io"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "maintainers": [
+    {
+      "email": "hi@leemons.io",
+      "name": "Leemons Edutech Solutions",
+      "url": "https://www.leemons.io"
+    }
+  ],
+  "devDependencies": {},
+  "dependencies": {
+    "@leemons/error": "0.0.41",
+    "@leemons/mongodb": "0.0.71",
+    "@leemons/service-name-parser": "0.0.41",
+    "lodash": "^4.17.21"
+  }
+}
